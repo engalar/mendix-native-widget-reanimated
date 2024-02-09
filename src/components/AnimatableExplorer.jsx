@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
     }
 });
 
-export function Demo() {
+export function AnimatableExplorer() {
     const [duration, setDuration] = React.useState(1000);
     const [toggledOn, setToggledOn] = React.useState(false);
     const textRef = React.useRef(null);

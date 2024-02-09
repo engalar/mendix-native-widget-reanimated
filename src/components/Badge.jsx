@@ -3,8 +3,6 @@ import { Platform, Text, TouchableNativeFeedback, TouchableOpacity, View } from 
 
 import { mergeNativeStyles } from "@mendix/pluggable-widgets-tools";
 
-import { Demo } from "./Demo";
-
 import { defaultBadgeStyle } from "../ui/styles";
 
 export function Badge({ value, style, onClick }) {
